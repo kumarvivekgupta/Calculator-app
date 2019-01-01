@@ -16,6 +16,7 @@
     "@angular/common": "^6.1.0",
     "@angular/compiler": "^6.1.0",
     "@angular/core": "^6.1.0",
+    "@angular/flex-layout": "^7.0.0-beta.22",
     "@angular/forms": "^6.1.0",
     "@angular/http": "^6.1.0",
     "@angular/material": "^7.2.0",
@@ -27,7 +28,7 @@
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular-devkit/build-angular": "^0.11.4",
     "@angular/cli": "~6.2.2",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",

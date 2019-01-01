@@ -1,0 +1,20 @@
+.single-button {
+  cursor: pointer;
+  width: 2rem;
+}
+
+.single-button:hover {
+  z-index: 2;
+  background-color: rgba(121, 81, 67, 0.97);
+}
+
+.mat-button {
+  border-radius: 18px !important;
+}
+
+.mat-button-ripple {
+  border-radius: inherit;
+  z-index: 1;
+}
+
+

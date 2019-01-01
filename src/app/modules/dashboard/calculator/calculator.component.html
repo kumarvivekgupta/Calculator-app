@@ -1,0 +1,34 @@
+<div class="calculator">
+  <mat-card class="screen">
+    <span>{{result}}</span>
+  </mat-card>
+  <div class="board">
+    <div class="row">
+      <app-single-button class="block" [placed]='7' (click)="clicked('7')"></app-single-button>
+      <app-single-button class="block" [placed]='8' (click)="clicked('8')"></app-single-button>
+      <app-single-button class="block" [placed]='9' (click)="clicked('9')"></app-single-button>
+      <app-single-button class="block" [placed]='"%"' (click)="clicked('/')"></app-single-button>
+    </div>
+    <div class="row">
+      <app-single-button class="block" [placed]='4' (click)="clicked('4')"></app-single-button>
+      <app-single-button class="block" [placed]='5' (click)="clicked('5')"></app-single-button>
+      <app-single-button class="block" [placed]='6' (click)="clicked('6')"></app-single-button>
+      <app-single-button class="block" [placed]='"-"' (click)="clicked('-')"></app-single-button>
+    </div>
+    <div class="row">
+      <app-single-button class="block" [placed]='1' (click)="clicked('1')"></app-single-button>
+      <app-single-button class="block" [placed]='2' (click)="clicked('2')"></app-single-button>
+      <app-single-button class="block" [placed]='3' (click)="clicked('3')"></app-single-button>
+      <app-single-button class="block" [placed]='"+"' (click)="clicked('+')"></app-single-button>
+    </div>
+    <div class="row">
+      <app-single-button class="block" [placed]='0' (click)="clicked('0')"></app-single-button>
+      <app-single-button class="block" [placed]='"."' (click)="clicked('.')"></app-single-button>
+      <app-single-button class="block" [placed]='"+"' (click)="clicked('+')"></app-single-button>
+      <app-single-button class="block" [placed]='"="' (click)="clicked('=')"></app-single-button>
+      <app-single-button class="block" [placed]='"Clear"' (click)="clear()"></app-single-button>
+
+    </div>
+
+  </div>
+</div>
